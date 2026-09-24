@@ -10,8 +10,8 @@ def make_project():
     chars = string.ascii_letters + string.digits + "!@#"
     password = "".join(random.choice(chars) for i in range(10))
     
-    print(f"\n[+] आपकी प्रोफाइल के लिए सुरक्षित पासवर्ड जनरेट हो गया है: {password}")
-    print("\n[+] स्टेटस: प्रोजेक्ट सफलता पूर्वक रन हो चुका है! 🥳🎉")
+    print(f"\n[+] {password}")
+    print("\n[+] status)
     print("=========================================")
 
 make_project()
