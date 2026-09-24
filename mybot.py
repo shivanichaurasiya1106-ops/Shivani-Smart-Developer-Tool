@@ -11,7 +11,7 @@ def make_project():
     password = "".join(random.choice(chars) for i in range(10))
     
     print(f"\n[+] {password}")
-    print("\n[+] status)
+    print("\n[+] status")
     print("=========================================")
 
 make_project()
